@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/netflix.png",
     tag: ["All"],
     gitUrl: "/https://github.com/Yogeshpatidar1122/next-netflix-clone",
-    previewUrl: "/",
+    previewUrl: "/https://next-netflix-clone-teal.vercel.app/auth",
   },
   {
     id: 5,

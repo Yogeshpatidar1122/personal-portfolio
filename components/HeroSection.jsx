@@ -32,7 +32,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I Develop And creates interactive and Responsive web applications 
+            I Develop And creates interactive and Responsive web applications.To continously enhance my skill set, I actively engage in hands-on projects. These endeavors serve as valuable additions to my portfolio, showcasing my practical application of these frameworks. Through these projects, I have not only deepened my understanding of React and Next.js but have also honed my ability to create efficient and dynamic web applications.
           </p>
           <div>
             <Link
@@ -42,7 +42,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="/file/Yogesh Resume latest.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
@@ -59,7 +59,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src='/images/hero-image.png'
+              src='/images/logoportfolio.png'
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}

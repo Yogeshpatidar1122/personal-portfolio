@@ -8,56 +8,47 @@ const projectsData = [
   {
     id: 1,
     title: "Next Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    description: ",Hello and thank you for visiting my personal portfolio. Here, you'll find a curated collection showcasing my skills, experiences, and passion in various domains. As a versatile individual with a commitment to excellence, I've crafted this portfolio to offer you insight into my journey, projects, and contributions.",
+    image: '/images/projects/portfolio.png',
+    tag: ["All"],
+    gitUrl: "https://github.com/Yogeshpatidar1122/personal-portfolio",
     previewUrl: "/",
   },
   {
     id: 2,
     title: "AmazonPro||E-commerce Application",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    description: "AmazonPro is an Ecommerce website clone to purchase the things online. ",
+    image: "/images/projects/amazonpro.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/Yogeshpatidar1122/Next_AmazonPro",
+    previewUrl: "https://next-amazon-pro.vercel.app/",
   },
   {
     id: 3,
     title: "RENT N DRIVE ",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    description: "RENT N DRIVE is an website provide facility for rent a car for one day or a week on easily and cheaply.",
+    image: "/images/projects/rentndrive.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/Yogeshpatidar1122/RENT_N_DRIVE_nextapp",
+    previewUrl: "https://rent-n-drive-nextapp.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    title: "Netflix Clone",
+    description: "Netflix clone is based on netflix original app where you can create sign up your account and stream movies and show freely.",
+    image: "/images/projects/netflix.png",
+    tag: ["All"],
+    gitUrl: "/https://github.com/Yogeshpatidar1122/next-netflix-clone",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Text Counter",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
     title: "React Global News",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    description: "React global news is an web application where you read different types of news of different genre.",
+    image: "/images/projects/globalnews.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/Yogeshpatidar1122/React_GlobalNews",
+    previewUrl: "https://yogeshpatidar1122.github.io/React_GlobalNews/",
   },
 ];
 
@@ -90,16 +81,7 @@ const ProjectsSection = () => {
           name="All"
           isSelected={tag === "All"}
         />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
+     
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
